@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tumblr Tag Search</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    <h1>Tumblr Tag Search</h1>
+    <div id="tagboxblock">
+      <object
+        id="tagicon"
+        data="img/tag-solid.svg"
+        type="image/svg+xml"
+      ></object
+      ><input id="tagbox" type="text" placeholder="Type a tag here" />
+    </div>
+    <div id="postgrid">
+      <div id="encouragement">
+        Try these tags: <br />
+        "destiny 2" <br />
+        "minimalism" <br />
+        "watercolor"
+      </div>
+    </div>
+    <div id="loaderbuttoncontainer">
+      <button id="loaderbutton" type="button">Load more posts</button>
+    </div>
+  </body>
+</html>
